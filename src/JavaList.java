@@ -12,6 +12,19 @@ public class Solution {
         Scanner userInput = new Scanner(System. in);
         ArrayList<integer> numbers = new ArrayList<Integer>();
 
+        while (SizeOfArray > numbers.size()) {
+            int userNumber = userInput.nextInt();
+              numbers.add(usersNumbers);
+        }
 
-    }
+        int numberOfQueries = userInput,nextInt();
+
+        int numberOFQueries =0;
+        while (numberOFQueries > completedQueries){
+            String selectedQuery = userInput.nextLine();
+
+            if (slectedQuery.equals("Insert")){
+        }
+
+        s
 }
