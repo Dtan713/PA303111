@@ -4,7 +4,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Solution {
+public class JavaList{
 
     public static void main(String[] args) {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
@@ -17,14 +17,26 @@ public class Solution {
               numbers.add(usersNumbers);
         }
 
-        int numberOfQueries = userInput,nextInt();
+        int numberOfQueries = userInput.nextInt();
 
         int numberOFQueries =0;
         while (numberOFQueries > completedQueries){
             String selectedQuery = userInput.nextLine();
 
             if (slectedQuery.equals("Insert")){
-        }
 
-        s
-}
+                int usersSelectedIndex = userInput.nextInt();
+                int userNewValue = usersInput.nextInt();
+                numbers.add(usersSelectedIndex, userNewValue);
+                completeQueries++;
+            }
+
+            if (selectedQuery.equals("Delete")) {
+                int userSelectedIndex = userInput.nextInt();
+                numbers.remove(userSelectedIndex);
+                compeletedQueries++;
+            }
+
+            }
+
+        System.out.println(numbers);
